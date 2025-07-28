@@ -1,4 +1,5 @@
 # 🏠 Smart Home Automation System
+
 A Wi-Fi-based smart home automation system that allows users to remotely control electrical appliances (e.g., bulbs, fans) via an Android application. The system integrates ESP8266 microcontroller with a Django REST API backend and Firebase Realtime Database for real-time device state synchronization.
 
 📌 Table of Contents
@@ -15,9 +16,11 @@ A Wi-Fi-based smart home automation system that allows users to remotely control
 •Conclusion
 
 🔍 Project Overview
+
 This project aims to simplify home automation using cost-effective and scalable components. It provides users with control over home appliances through an Android app, making the home smarter and more energy-efficient. The system leverages IoT principles to create a seamless, real-time control loop between user and device.
 
 ✨ Features
+
 Remote ON/OFF control of appliances via Android app
 Real-time device status tracking
 Secure API-based communication
@@ -35,6 +38,7 @@ Cross-platform UI using Jetpack Compose (Kotlin)
 
 
 **🧰 Hardware Components**
+
 **Component**                 **Description**
 ESP8266 NodeMCU	              Wi-Fi-enabled microcontroller to handle appliance control
 Relay Module	                Enables switching of 220V AC appliances safely
@@ -44,6 +48,7 @@ Jumper Wires	                For circuit connection
 Power Adapter	                5V USB power supply for the NodeMCU
 
 **💻 Software Requirements**
+
 **Software/Tool**             **Purpose**
 Arduino IDE	                  Programming the ESP8266 NodeMCU
 ESP8266 Board Package	        Enables ESP support in Arduino IDE
@@ -76,6 +81,7 @@ Display real-time status using Firebase listeners
 
 
 **🧩 How It Works**
+
 User opens the Android app and taps the appliance toggle.
 App sends a POST request to Django API with the command.
 Django pushes command to Firebase Realtime Database.
@@ -85,6 +91,7 @@ ESP8266 updates the device state back to Firebase.
 App updates UI based on Firebase real-time changes.
 
 **📊 Use Case Diagram**
+
 Actors:
 
 User (Phone App)
@@ -103,6 +110,7 @@ Device state updated and reflected back in app
 
 
 **👥 Team Roles & Responsibilities**
+
 1. Pradeep Soni –  Backend & Android Developer
 
 Designed and implemented Android application with Jetpack Compose
@@ -116,5 +124,6 @@ Managed app-to-server communication and error handling
 Built real-time UI using Firebase SDK
 
 **✅ Conclusion**
+
 This Smart Home Automation System is a low-cost, scalable, and intuitive solution built with modern technology stacks. It bridges IoT hardware and real-time software interfaces, enabling users to securely
 control home appliances from anywhere. It showcases effective integration of microcontrollers, web APIs, mobile development, and cloud databases.
