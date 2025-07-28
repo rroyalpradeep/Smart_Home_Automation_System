@@ -4,16 +4,16 @@ A Wi-Fi-based smart home automation system that allows users to remotely control
 
 <h1>📌 Table of Contents</h1>
 
-•Project Overview
-•Features
-•System Architecture
-•Hardware Components
-•Software Requirements
-•Project Setup
-•How It Works
-•Use Case Diagram
-•Team Roles & Responsibilities
-•Conclusion
+<li> Project Overview </li>
+<li> Features </li>
+<li> System Architecture </li>
+<li> Hardware Components </li>
+<li> Software Requirements </li>
+<li> Project Setup </li>
+<li> How It Works </li>
+<li> Use Case Diagram </li>
+<li> Team Roles & Responsibilities </li>
+<li> Conclusion </li>
 
 
 <h1>🔍 Project Overview</h1>
