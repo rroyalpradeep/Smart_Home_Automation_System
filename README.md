@@ -2,7 +2,7 @@
 
 A Wi-Fi-based smart home automation system that allows users to remotely control electrical appliances (e.g., bulbs, fans) via an Android application. The system integrates ESP8266 microcontroller with a Django REST API backend and Firebase Realtime Database for real-time device state synchronization.
 
-<h1>📌 Table of Contents</h1>
+<h3>📌 Table of Contents</h3>
 
 <li> Project Overview </li>
 <li> Features </li>
@@ -16,12 +16,12 @@ A Wi-Fi-based smart home automation system that allows users to remotely control
 <li> Conclusion </li>
 
 
-<h1>🔍 Project Overview</h1>
+<h3>🔍 Project Overview</h3>
 
 This project aims to simplify home automation using cost-effective and scalable components. It provides users with control over home appliances through an **Android app**, making the home smarter and more energy-efficient. The system leverages IoT principles to create a seamless, real-time control loop between user and device.
 
 
-<h1>✨ Features</h1>
+<h3>✨ Features</h3>
 
 Remote ON/OFF control of appliances via **Android app**
 Real-time device status tracking
@@ -30,7 +30,7 @@ Firebase sync for persistent state management
 Scalable and cost-efficient hardware integration
 Cross-platform UI using Jetpack Compose (Kotlin)
 
-<h1>  🏗️ System Architecture </h1>
+<h3>  🏗️ System Architecture </h3>
 
 [Android App] ⇄ [Django REST API] ⇄ [Firebase DB]
      ↓                                    ↑
@@ -39,7 +39,7 @@ Cross-platform UI using Jetpack Compose (Kotlin)
                       [Relay → Bulb/Fan]
 
 
-<h1> 🧰 Hardware Components </h1> 
+<h3> 🧰 Hardware Components </h3> 
 
 **Component**                 **Description**
 ESP8266 NodeMCU	              Wi-Fi-enabled microcontroller to handle appliance control
@@ -49,7 +49,7 @@ Breadboard	                  Prototyping component to connect wires and modules
 Jumper Wires	                For circuit connection
 Power Adapter	                5V USB power supply for the NodeMCU
 
-<h1>  💻 Software Requirements </h1>
+<h3>  💻 Software Requirements </h3>
 
 **Software/Tool**             **Purpose**
 Arduino IDE	                 Programming the ESP8266 NodeMCU
@@ -60,7 +60,7 @@ Jetpack Compose              	  Kotlin UI framework for Android App
 Postman	                      For testing API endpoints
 Firebase Admin SDK	            Python module to access Firebase from Django backend
 
-<h1> 🛠️ Project Setup </h1> 
+<h3> 🛠️ Project Setup </h3> 
 
 **1. ESP8266 Firmware**
 
@@ -82,17 +82,17 @@ API calls to Django endpoints
 Display real-time status using Firebase listeners
 
 
-<h1> 🧩 How It Works </h1>
+<h3> 🧩 How It Works </h3>
 
-User opens the Android app and taps the appliance toggle.
-App sends a POST request to Django API with the command.
-Django pushes command to Firebase Realtime Database.
-ESP8266 listens for changes in Firebase node, reads the command.
-ESP8266 triggers relay module to control the appliance.
-ESP8266 updates the device state back to Firebase.
-App updates UI based on Firebase real-time changes.
+<li>User opens the Android app and taps the appliance toggle.</li>
+<li>App sends a POST request to Django API with the command. </li>
+<li>Django pushes command to Firebase Realtime Database. </li>
+<li>ESP8266 listens for changes in Firebase node, reads the command. </li>
+<li>ESP8266 triggers relay module to control the appliance. </li>
+<li>ESP8266 updates the device state back to Firebase. </li>
+<li>App updates UI based on Firebase real-time changes. </li>
 
-<h1>  📊 Use Case Diagram </h1>
+<h3>  📊 Use Case Diagram </h3>
 
 **Actors:**
 
@@ -111,7 +111,7 @@ Device state updated and reflected back in app
 <img width="1024" height="1024" alt="ChatGPT Image Jul 28, 2025, 01_30_09 PM" src="https://github.com/user-attachments/assets/43f256c3-159f-44d0-9cb3-3f9dee904883" />
 
 
-<h1>  👥 Team Roles & Responsibilities </h1>
+<h3>  👥 Team Roles & Responsibilities </h3>
 
 **1. Pradeep Soni –  Backend & Android Developer**
 
@@ -125,6 +125,6 @@ Integrated Firebase Admin SDK with Django server
 Managed app-to-server communication and error handling
 Built real-time UI using **Firebase SDK**
 
-<h1> ✅ Conclusion </h1> 
+<h3> ✅ Conclusion </h3> 
 This Smart Home Automation System is a low-cost, scalable, and intuitive solution built with modern technology stacks. It bridges IoT hardware and real-time software interfaces, enabling users to securely
 control home appliances from anywhere. It showcases effective integration of microcontrollers, web APIs, mobile development, and cloud databases.
