@@ -1,6 +1,11 @@
-# 🏠 Smart Home Automation System
+<h1 align="center">
+  <img src="https://github.com/user-attachments/assets/e78b65fc-d636-4789-8616-d1ec0eb459f3" width="264" height="264" alt="Smart Home Automation System"><br>
+  🏠 Smart Home Automation System
+</h1>
 
-A Wi-Fi-based smart home automation system that allows users to remotely control electrical appliances (e.g., bulbs, fans) via an Android application. The system integrates ESP8266 microcontroller with a Django REST API backend and Firebase Realtime Database for real-time device state synchronization.
+<p align="center">
+  <b> A Wi-Fi-based smart home automation system that allows users to remotely control electrical appliances (e.g., bulbs, fans) via an Android application. The system integrates ESP8266 microcontroller with a Django REST API backend and Firebase Realtime Database for real-time device state synchronization.</b>
+</p>
 
 ## 📌 Table of Contents
 - Project Overview
